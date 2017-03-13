@@ -33,7 +33,7 @@ int main()
     return 0;   
 }
 ```
-in this example , we know that **naluFile** is used to save the pointers of file *hao.txt*, each time **fgets** execute , **naluFile** move to the beginning of next line and then read 1000 bits of the sentence. it conserve the sentences to vector **line**  
+in this example , we know that **naluFile** is used to save the pointers of file *hao.txt*, each time **fgets** execute , **naluFile** move to the beginning of next line and then read 1000 bits of the sentence. it conserve the sentences to vector **lines**  
 so the result is shown like this:
 ```
 l love you 
